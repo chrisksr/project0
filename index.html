@@ -2,11 +2,43 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            .liens
+            {
+                text-align: right;
+                padding-right: 30px;
+                
+            }
+            input
+            {
+                display: flex;
+                z-index: 3;
+                height: 44px;
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                border-radius: 24px;
+                margin: 0 auto;
+                width: 638px;
+                width: auto;
+                max-width: 584px;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="liens">
+            <a href="imagesearch.html">Image Search</a>
+        </div>
+        <div class="liens">
+            <a href="advancedsearch.html">Advanced Search</a>
+        </div>
+        <div class="form">
+            <center>
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Search">
+                </form>
+            </center>    
+        </div>
     </body>
 </html>
