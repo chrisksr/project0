@@ -5,21 +5,56 @@
         <style>
             .liens
             {
+                /**move the links on the right**/
                 text-align: right;
+                /** add some space behind the links**/
                 padding-right: 30px;
+            }
+            .input_search
+            {
+                text-indent: 10px;
+                display: flex;
+                width: auto;
                 
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                font-size: 16px;
+                margin: 50px 4px;
+                padding: 0 16px;
+                height: 36px;
+                min-width: 54px;
+                text-align: left;
+            }
+            .submit_button:hover
+            {
+                border: 1px solid #dfe1e5;
+            }
+            .submit_button:focus
+            {
+                border: 1px solid blue;
+            }
+            .submit_button
+            {
+                
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                /** transform the cursor un little hand **/
+                cursor: pointer;
+                height:36px;
             }
         </style>
     </head>
     <body>
         <div class="liens">
-            <a href="index.html">Google Search</a>               
+            <a href="index.html">Google Search</a>      
         </div>
+        <br>     <!-- break line to keep the search field at the same height during navigation  -->
         <div>
             <center>
-                <form action="https://images.google.com/"">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Image Search">
+                <form action="https://images.google.com/">
+                    <input class=input_search type="text" name="q">
+                    <input class=submit_button type="submit" value="Image Search">
                 </form>
             </center>
         </div>

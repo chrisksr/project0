@@ -7,21 +7,36 @@
             {
                 text-align: right;
                 padding-right: 30px;
-                
             }
-            input
+            .input_search
             {
-                display: flex;
-                z-index: 3;
-                height: 44px;
-                background: #fff;
+                text-indent: 10px;
                 border: 1px solid #dfe1e5;
-                box-shadow: none;
                 border-radius: 24px;
-                margin: 0 auto;
-                width: 638px;
-                width: auto;
-                max-width: 584px;
+                font-size: 16px;
+                margin: 50px 4px;
+                padding: 0 16px;
+                height: 36px;
+                min-width: 54px;
+                text-align: left;
+            }
+            .submit_button:hover
+            {
+                border: 1px solid #dfe1e5;
+            }
+            .submit_button:focus
+            {
+                border: 1px solid blue;
+            }
+            .submit_button
+            {
+                
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                /** transform the cursor un little hand **/
+                cursor: pointer;
+                height:36px;
             }
         </style>
     </head>
@@ -35,8 +50,9 @@
         <div class="form">
             <center>
                 <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
+                    <input class=input_search type="text" name="q">
+                    <br>
+                    <input class=submit_button type="submit" value="Google Search">
                 </form>
             </center>    
         </div>
