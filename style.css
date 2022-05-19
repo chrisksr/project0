@@ -33,3 +33,95 @@
     cursor: pointer;
     height:36px;
 }
+
+.submit_advanced
+{
+    
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    /** transform the cursor un little hand **/
+    cursor: pointer;
+    height:36px;
+    float: right;
+
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+
+}
+
+
+.submit_advanced:hover
+{
+    border: 1px solid #dfe1e5;
+}
+.submit_advanced:focus
+{
+    border: 1px solid blue;
+    
+}
+
+
+body
+            {
+                font-family: arial,sans-serif;
+            }
+            .group
+            {
+                /**width: 100%;**/
+                margin-top:50px;
+                width:1140px;   
+                clear: both;
+                
+            }
+ 
+            .adv_left
+            {
+                float: left;
+                display: inline-block;
+                min-width: 167px;
+                width: 16%;
+                height: 42px;
+                color: #222;
+                font-size: 13px;
+                line-height: 16px;
+                vertical-align: middle;
+                padding-top: 7px;
+            }
+            .adv_middle
+            {
+                float: left;
+                /* display: inline-block; */
+                min-width: 167px;
+                min-height: 41px;
+                vertical-align: middle;
+                width: 50%;
+            }
+            .advanced_input
+            {
+                width: 98%;
+                -webkit-border-radius: 1px;
+                -moz-border-radius: 1px;
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                padding: 1px 8px;
+            }
+            .adv_right
+            {
+                float: left;
+                display: inline-block;
+                width: 32%;
+                min-width: 160px;
+                margin: 0 0 4px 1%;
+                color: #555;
+                font-size: 11px;
+                padding-left: 5px;
+                padding-top: 7px;
+                vertical-align: middle;
+                position: relative;
+                min-height: 41px;
+            }
